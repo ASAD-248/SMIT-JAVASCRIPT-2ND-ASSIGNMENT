@@ -1,50 +1,50 @@
 
 //                  Q no: 01;
 
-// var c = 10;
-// document.write( `
-//         Result: <br>
-//         The value of c is : ${c}<br><br><br>
-// `)
-// document.write( `
+var c = 10;
+document.write( `
+        Result: <br>
+        The value of c is : ${c}<br><br><br>
+`)
+document.write( `
         
-//         The value of ++c is : 11<br>
-//         Now the value c is : ${++c}<br><br><br>
-// `)    
-// document.write( `
-//         The value of ++c is : 11<br>
-//         Now the value c is : ${++c}<br><br><br>
-// `)
-// document.write( `
-//     The value of --c is : ${--c}<br>
-//     Now the value c is : ${c} <br><br><br>
-// `)
-// document.write( `
-//     The value of c-- is : ${c--}<br>
-//     Now the value c is : ${c}<br><br><br>
-// `) 
+        The value of ++c is : 11<br>
+        Now the value c is : ${++c}<br><br><br>
+`)    
+document.write( `
+        The value of ++c is : 11<br>
+        Now the value c is : ${++c}<br><br><br>
+`)
+document.write( `
+    The value of --c is : ${--c}<br>
+    Now the value c is : ${c} <br><br><br>
+`)
+document.write( `
+    The value of c-- is : ${c--}<br>
+    Now the value c is : ${c}<br><br><br>
+`) 
     
 //                  Q no: 02;
 
-// var a = 2, b = 1;
-// var result = --a - --b + ++b + b--;
-// //            1  -  0  +  1  +   1 answ = 3 ;
-// document.write("a is " + a  + "<br>");
-// document.write("b is " + b + "<br>");
-// document.write("result is " + result);
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
+//            1  -  0  +  1  +   1 answ = 3 ;
+document.write("a is " + a  + "<br>");
+document.write("b is " + b + "<br>");
+document.write("result is " + result);
 
 //                  Q no: 03;
 
-// var userName = prompt("Enter tour name");
-// alert("Hello " + userName + "<br>");
+var userName = prompt("Enter tour name");
+alert("Hello " + userName + "<br>");
 
 //                  Q no: 05;
 
-// var table_nmbr = +prompt("Enter any number for table");
+var table_nmbr = +prompt("Enter any number for table");
 
-// for( i = 1 ; i<=10; i ++){
-//     document.write(table_nmbr + " x "  + i + " = " + table_nmbr * i + "<br>")
-// }
+for( i = 1 ; i<=10; i ++){
+    document.write(table_nmbr + " x "  + i + " = " + table_nmbr * i + "<br>")
+}
 
 //                  Q no: 06;
 
